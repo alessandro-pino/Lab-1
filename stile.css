@@ -34,7 +34,7 @@ ol{
 }
 
 .nav li{
-    display:line;
+    display:inline;
 }
 
 .nav{
