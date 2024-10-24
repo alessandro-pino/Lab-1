@@ -18,6 +18,24 @@
     </div>
     <div class="main-content">
         <h2>Suggest</h2>
+        <form action="http://localhost:8000/" method="post">
+            <label for="recipe-name">Recipe Name</label>
+            <input type="text" id="recipe-name" name="recipe-name">
+
+            <label for="ingredients">Ingredients</label>
+            <textarea id="ingredients" name="ingredients"></textarea>
+
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Your Email</label>
+            <input type="text" id="email" name="email">
+        
+            <label for="newsleter">Get Newsletter?</label>
+            <input type="checkbox" id="newsleter" name="newsleter">
+            
+            <input type="submit" value="Click to submit">
+        </form>
     </div>
     <div class="footer">
         <p>&copy;2014-Recipe World</p>
